@@ -159,8 +159,10 @@ color: #fff;
 
 }
 .box:hover{
-    background-color: #fff;
+    background-color: #2e0352;
     color: #000000;
+    cursor: pointer;
+    
 }
 .equipe{
     border: 1px solid rgb(52, 0, 95);
@@ -176,15 +178,32 @@ color: #fff;
     border-radius: 20px;
 
 }
-.box h3:hover{
-    transform: translateY(-2px);
-}
+
 .equipe .box-conteiner{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
 
-    
+}
+
+.efeito-letras {
+  display: inline-block;
+  cursor: pointer;
+  transition: letter-spacing 0.5s ease-in-out;
+}
+
+.efeito-letras span {
+  display: inline-block;
+  transition: transform 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.efeito-letras:hover {
+  letter-spacing: 8px;
+}
+
+.efeito-letras:hover span {
+  transform: rotate(360deg);
+  transition: transform 0s;
 }
 
 

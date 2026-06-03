@@ -1,0 +1,194 @@
+* {
+    transition: 0.2s linear;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
+
+
+}
+body{
+   
+    background-color: #000000;
+
+
+
+
+}
+.italiana-regular {
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.teto{
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+border-bottom: 1px solid rgb(87, 27, 151);
+background-color: #000000;
+
+
+}
+section {
+    max-width: 1200px;
+    padding: 3rem 2rem;
+    margin: 0 auto;
+
+
+}
+.teto section{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 1rem;
+
+}
+
+.navbar a {
+    color: rgb(255, 255, 255);
+    font-size: 1,8rem;
+    margin: 0 1rem;
+}
+.navbar a:hover{
+    border-bottom: 0.1rem solid white;
+    padding-bottom: 3px;
+    color: rgb(180, 100, 247);
+    font-size: 1.1rem;
+
+}
+/*------------------------FIM TETO----------------------*/
+.imgfundo{
+    background: url("../imagens/imagem-pro-fundo.png");
+    
+    background-position: center;
+    background-size: cover;
+}
+.imgfundo section{
+    display: flex;
+    align-items: center;
+    min-height: 90vh;
+}
+
+
+.content{
+    max-width: 60rem;
+    
+}
+.content h3{
+    color: #fff;
+    font-size: 4rem;
+}
+.content p{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 100;
+}
+    
+
+.icons img:hover{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.sobrenos{
+    color: white;
+    padding: 20px;
+    margin-top: 60px;
+}
+.sobrenos h1{
+    text-align: center;
+    font-size: 3rem;
+}
+.sobrenos h4{
+    font-size: 2rem;
+}
+.sobrenos p{
+    text-align: center;
+    height: 100px;
+    padding: 5px 30px;
+    margin-bottom: 10px;
+
+}
+.tsb{
+    border: 0.1px solid white;
+    background-color: rgb(37, 2, 75);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.tsb a{
+    color: white;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px ;
+    margin: 10px;
+    border-radius: 20px;
+    width: fit-content;
+    
+}
+.tsb a:hover{
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+    
+}
+hr{
+    border: none;
+    background-color: rgb(87, 27, 151);
+    height: 1px;
+}
+
+.title{
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+}
+.title span{
+    color: rgb(52, 0, 95);;
+}
+.box{
+border: 1px solid rgba(255, 255, 255, 0.301);
+text-align: center;
+color: #fff;
+
+}
+.box:hover{
+    background-color: #fff;
+    color: #000000;
+}
+.equipe{
+    border: 1px solid rgb(52, 0, 95);
+}
+.box-conteiner{
+    padding: 10px;
+}
+.box img{
+    width: 280px ;
+    height: 250px ;
+    padding-top: 10px;
+    object-fit: cover;
+    border-radius: 20px;
+
+}
+.box h3:hover{
+    transform: translateY(-2px);
+}
+.equipe .box-conteiner{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+
+    
+}
+
+
+
+
+    
+    

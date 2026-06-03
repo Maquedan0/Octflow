@@ -1,11 +1,15 @@
 
-const titulo = document.querySelector('.efeito-letras');
+const titulos = document.querySelectorAll('.efeito-letras');
 
-
-titulo.innerHTML = titulo.textContent
-  .split('')
-  .map(letra => {
-    
-    return letra === ' ' ? ' ' : `<span>${letra}</span>`;
-  })
-  .join('');
+titulos.forEach(titulo => {
+  const textoOriginal = titulo.textContent;
+  titulo.innerHTML = ''; 
+  
+  const letras = textoOriginal.split('');
+  
+  letras.forEach(letra => {
+    const span = document.createElement('span');
+    span.textContent = letra === ' ' ? '\u00A0' : letra; 
+    titulo.appendChild(span);
+  });
+});

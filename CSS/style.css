@@ -220,6 +220,19 @@ color: #fff;
 }
 .footer{
     text-align: center;
+    color: white;
+}
+
+.footer .redes h4{
+
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: rgb(255, 255, 255);
+    
+}
+.footer .redes img:hover + h4{
+    opacity: 1;
+
 }
 .footer .redes img{
     margin: 0.1rem;
@@ -228,10 +241,12 @@ color: #fff;
     width: 40px;
     height: 40px;
 }
+
 .footer .redes img:hover{
     background-color: rgb(21, 0, 37);
 
 }
+
 .footer title{
     margin-top: 0;
 }

@@ -235,7 +235,7 @@ color: #fff;
 
     opacity: 0;
     transition: opacity 0.3s;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255) !important;
     
 }
 

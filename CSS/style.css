@@ -232,6 +232,7 @@ color: #fff;
 }
 .footer .redes img:hover + h4{
     opacity: 1;
+    color : rgb(255, 255, 255);
 
 }
 .footer .redes img{

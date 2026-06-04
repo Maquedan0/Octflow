@@ -18,6 +18,7 @@ body{
   font-family: "Italiana", sans-serif;
   font-weight: 400;
   font-style: normal;
+  margin: 10px;
 }
 
 
@@ -85,7 +86,9 @@ section {
     font-size: 2rem;
     font-weight: 100;
 }
-    
+.a{
+    font-size: 20px
+}    
 
 .icons img:hover{
     width: 40px;
@@ -94,8 +97,10 @@ section {
 }
 .sobrenos{
     color: white;
-    padding: 20px;
+    max-width: 600px;
+    max-height: 400px;
     margin-top: 60px;
+    margin-bottom: 100px;
 }
 .sobrenos h1{
     text-align: center;
@@ -208,9 +213,46 @@ color: #fff;
   transform: rotate(360deg);
   transition: transform 0s;
 }
+.address{
+    text-align: center;
+    
+    
+}
+.footer{
+    text-align: center;
+}
+.footer .redes img{
+    margin: 0.1rem;
+    border-radius: 50%;
+    padding: 1rem;
+    width: 40px;
+    height: 40px;
+}
+.footer .redes img:hover{
+    background-color: rgb(21, 0, 37);
 
-
-
+}
+.footer title{
+    margin-top: 0;
+}
+.footer hr{
+    max-width: 500px;
+}
+.saiba-mais{
+    padding: 20px;
+    background-color: rgb(87, 27, 151);
+    border: 3px solid #fff;
+    color: #fff;
+    margin-top: 200px;
+    border-radius: 30px;
+    
+}
+.saiba-mais h1{
+    text-align: center;
+}
+.saiba-mais h3{
+    text-align: center;
+}
 
     
     

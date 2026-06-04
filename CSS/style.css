@@ -230,6 +230,15 @@ color: #fff;
     color: rgb(255, 255, 255);
     
 }
+
+.footer .redes h4:visited{
+
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: rgb(255, 255, 255);
+    
+}
+
 .footer .redes img:hover + h4{
     opacity: 1;
     color : rgb(255, 255, 255);

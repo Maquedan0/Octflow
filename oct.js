@@ -13,3 +13,20 @@ titulos.forEach(titulo => {
     titulo.appendChild(span);
   });
 });
+
+
+const imagem = document.getElementById('minha-imagem');
+let contadorCliques = 0;
+
+
+imagem.addEventListener('click', () => {
+    contadorCliques++;
+    
+    
+    if (contadorCliques === 12) {
+        imagem.src = '';
+        
+        // Opcional: adiciona uma classe caso queira aplicar algum efeito CSS novo
+        imagem.classList.add('transformada'); 
+    }
+});

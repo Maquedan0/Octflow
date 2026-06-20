@@ -12,7 +12,6 @@ body{
 
 
 
-
 }
 .italiana-regular {
   font-family: "Italiana", sans-serif;
@@ -49,15 +48,13 @@ section {
 
 .navbar a {
     color: rgb(255, 255, 255);
-    font-size: 1,8rem;
     margin: 0 1rem;
+    transition: all 0.3s ease;
 }
 .navbar a:hover{
     border-bottom: 0.1rem solid rgb(180, 100, 247);
     padding-bottom: 3px;
     color: rgb(180, 100, 247);
-    font-size: 1.1rem;
-
 }
 /*------------------------FIM TETO----------------------*/
 .imgfundo{

@@ -40,3 +40,35 @@ imagem.addEventListener('click', () => {
         contadorCliques = 0; // Opcional: reinicia o contador para poder brincar de novo
     }
 });
+
+const container = document.getElementById('meuContainer');
+const img = document.getElementById('minhaImagem');
+
+const imgNormal = './imagem-equipe/Camilly.PNG';
+const imgPressionada = './imagens/Segredo2.jpg';
+
+// 1. Pressionou o mouse
+container.addEventListener('mousedown', (e) => {
+    e.preventDefault(); // Evita comportamentos estranhos de seleção
+    img.src = imgPressionada;
+});
+
+// 2. Solto o mouse DENTRO do container
+container.addEventListener('mouseup', () => {
+    img.src = imgNormal;
+});
+
+// 3. O mouse saiu do container (enquanto pressionado ou não)
+// Isso conserta o caso de "arrastar para fora e soltar"
+container.addEventListener('mouseleave', () => {
+    img.src = imgNormal;
+});
+
+// 4. Previne que a imagem seja arrastada pelo navegador (bug comum)
+img.addEventListener('dragstart', (e) => {
+    e.preventDefault();
+});
+
+window.addEventListener('mouseup', () => {
+    img.src = imgNormal;
+});

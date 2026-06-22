@@ -72,3 +72,38 @@ img.addEventListener('dragstart', (e) => {
 window.addEventListener('mouseup', () => {
     img.src = imgNormal;
 });
+
+// Código para o efeito de clique na imagem da Samuel
+
+
+const containerS = document.getElementById('meuContainerS');
+const imgS = document.getElementById('minhaImagemS');
+
+const imgNormalS = './imagem-equipe/Samuel.PNG';
+const imgPressionadaS = './imagens/Segredo3.webp';
+
+// 1. Pressionou o mouse
+containerS.addEventListener('mousedown', (e) => {
+    e.preventDefault(); // Evita comportamentos estranhos de seleção
+    imgS.src = imgPressionadaS;
+}); 
+
+// 2. Solto o mouse DENTRO do container
+containerS.addEventListener('mouseup', () => {
+    imgS.src = imgNormalS;
+});
+
+// 3. O mouse saiu do container (enquanto pressionado ou não)
+// Isso conserta o caso de "arrastar para fora e soltar"
+containerS.addEventListener('mouseleave', () => {
+    imgS.src = imgNormalS;
+});
+
+// 4. Previne que a imagem seja arrastada pelo navegador (bug comum)
+imgS.addEventListener('dragstart', (e) => {
+    e.preventDefault();
+});
+
+window.addEventListener('mouseup', () => {
+    imgS.src = imgNormalS;
+});

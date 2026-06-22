@@ -353,3 +353,14 @@ transition: all 0.3s ease;
     transition: transform 0.1s ease-in-out !important;
     cursor: pointer;
 }
+
+.emoji {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.emoji:hover {
+    opacity: 1;
+    cursor: crosshair;
+
+}

@@ -80,7 +80,7 @@ const containerS = document.getElementById('meuContainerS');
 const imgS = document.getElementById('minhaImagemS');
 
 const imgNormalS = './imagem-equipe/Samuel.PNG';
-const imgPressionadaS = './imagens/Segredo3.webp';
+const imgPressionadaS = './imagens/Segredo3.jpg';
 
 // 1. Pressionou o mouse
 containerS.addEventListener('mousedown', (e) => {

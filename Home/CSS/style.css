@@ -374,62 +374,98 @@ transition: all 0.3s ease;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 300px 300px 300px 300px;
+    grid-template-rows: 150px 150px 150px 150px;
     gap: 40px;
 }
 
-.item1{
-    border: 2px solid white;
+.cl1{
+    border: 1px solid white;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    background-color: rgba(82, 0, 189, 0.116)
 }
 
-.item2{
-    border: 2px solid white;
+.cl2{
+    border: 1px solid white;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
-
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    background-color: rgba(82, 0, 189, 0.116)
 }
 
-.item3{
-    border: 2px solid white;
+
+
+.cl3{
+    border: 1px solid white;
     grid-column: 1 / 2;
     grid-row: 3 / 4;
-
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    background-color: rgba(82, 0, 189, 0.116)
 }
 
-.item4{
-    border: 2px solid white;
+
+
+.cl4{
+    border: 1px solid white;
     grid-column: 1 / 2;
     grid-row: 4 / 5;
-
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    background-color: rgba(82, 0, 189, 0.116)
 }
 
-.item5{
-    border: 2px solid white;
+
+
+.cl5{
+    border: 1px solid white;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    background-color: rgba(82, 0, 189, 0.116)
 }
 
-.item6{
-    border: 2px solid white;
+
+
+.cl6{
+    border: 1px solid white;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    background-color: rgba(82, 0, 189, 0.116)
 }
 
-.item7{
-    border: 2px solid white;
+
+
+.cl7{
+    border: 1px solid white;
     grid-column: 2 / 3;
     grid-row: 3 / 4;
-
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    background-color: rgba(82, 0, 189, 0.116)
 }
 
-.item8{
-    border: 2px solid white;
+
+
+.cl8{
+    border: 1px solid white;
     grid-column: 2 / 3;
     grid-row: 4 / 5;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    background-color: rgba(82, 0, 189, 0.116);
+}
 
+.item{
+    grid-template-columns: 1 / 2;
+    border-right: 2px solid rgb(87, 27, 151);
+}
+.texto-item{
+    grid-template-columns: 2 / 3;
 }

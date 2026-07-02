@@ -476,8 +476,10 @@ transition: all 0.3s ease;
     height: 100%;
     display: grid;
     grid-template-columns: 150px 1fr;
-    background-color: rgba(82, 0, 189, 0.116);
+    background-color: rgb(232, 178, 253);
     border-radius: 20px;
+    color: rgb(58, 58, 58);
+    overflow: hidden;
 }
 
 

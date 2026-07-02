@@ -427,7 +427,7 @@ transition: all 0.3s ease;
     height: 100%;
     display: grid;
     grid-template-columns: 150px 1fr;
-    background-color: #00031f;
+    background-color: #000853;
     border-radius: 20px;
     color: #fff;
 }

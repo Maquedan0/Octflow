@@ -464,8 +464,9 @@ transition: all 0.3s ease;
     height: 100%;
     display: grid;
     grid-template-columns: 150px 1fr;
-    background-color: #BC0000;
+    background-color: rgba(170, 0, 0, 0.548);
     border-radius: 20px;
+    color:#ffffff;
 }
 
 

@@ -438,7 +438,7 @@ transition: all 0.3s ease;
     
     display: grid;
     grid-template-columns: 150px 1fr;
-    background-color: rgb(251, 216, 255);
+background-color: rgb(251, 216, 255);
     border-radius: 20px;
     overflow: hidden;
     color: #000000;
@@ -511,12 +511,12 @@ transition: all 0.3s ease;
 }
 
 .item{
-    grid-template-columns: 1 / 2;
+    grid-columns: 1 / 2;
     border-right: 2px solid rgb(87, 27, 151);
     display: flex;
     align-items: center;
     justify-content: center;
-    
+overflow: hidden;
 }
 .item img{
     width: 100%;

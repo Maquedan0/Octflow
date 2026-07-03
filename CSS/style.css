@@ -608,3 +608,8 @@ transition: all 0.3s ease;
 .text-foot h3{
     margin: 0;
 }
+
+.text-foot h3:hover{
+    color: blueviolet;
+    cursor: pointer;
+}

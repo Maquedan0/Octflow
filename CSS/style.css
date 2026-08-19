@@ -375,7 +375,7 @@ transition: all 0.3s ease;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
     gap: 40px;
 }
 
@@ -397,8 +397,8 @@ transition: all 0.3s ease;
 
 
 .grid-client4{
-    grid-column: 1 / 2;
-    grid-row: 4 / 5;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
 }
 
 .grid-client5{
@@ -410,18 +410,6 @@ transition: all 0.3s ease;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
 }
-
-.grid-client7{
-    grid-column: 2 / 3;
-    grid-row: 3 / 4;
-}
-
-.grid-client8{
-    grid-column: 2 / 3;
-    grid-row: 4 / 5;
-}
-
-
 
 .cl1{
     border: 1px solid white;
@@ -509,26 +497,6 @@ transition: all 0.3s ease;
 }
 .cl6 .texto-item hr{
     background-color: rgb(255, 187, 0);
-}
-
-.cl7{
-    border: 1px solid white;
-    height: 100%;
-    display: grid;
-    grid-template-columns: 150px 1fr;
-    background-color: rgba(82, 0, 189, 0.116);
-    border-radius: 20px;
-}
-
-
-
-.cl8{
-    border: 1px solid white;
-    height: 100%;
-    display: grid;
-    grid-template-columns: 150px 1fr;
-    background-color: rgba(82, 0, 189, 0.116);
-    border-radius: 20px;
 }
 
 .item{

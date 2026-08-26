@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    
+
 </head>
 
-<body>
+<body style="background-color: rgb(218, 218, 218);">
 
-    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+    <nav class="navbar" style="background-color: #171b34; position: fixed; width: 100%; z-index: 99999; top: 0;"
+        data-bs-theme="dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">Site Inclusivo - Cegueira</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -23,13 +24,22 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link " aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link " href="#cegueira">Cegueira no Brasil e no Mundo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link " href="#extensao">Extensões e leitores de tela</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#braille">Como Surgiu o Braille & O alfabeto Braille</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#lei">Legislação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#ong">Instituições de Apoio</a>
                     </li>
                 </ul>
             </div>
@@ -37,60 +47,46 @@
     </nav>
 
 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <h1 class="text-center mt-4">Extensoes Utilizadas</h1>
-    <hr>
-    <h3 class="text-center ">Pessoas com cegueira utilizam de extensoes externas para fazer a leitura do site</h3>
-
-
-    <div class="container mt-5 mb-5">
-        <div class="row">
-            <div class="card m-2 col-xs-12 col-sm-6 col-lg-3 border border-1 border-dark p-1 mx-auto" style="width: 300px;">
-                <img src="./imagem_sitetop/image_nvda.png" class="card-img-top border border-1 rounded" style="height: 290px; width: auto; object-fit: cover;" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">NVDA</h5>
-                    <p class="card-text">Não é bem uma extensão de navegador, mas um leitor de tela gratuito e de código aberto para Windows. É um dos mais usados no mundo todo, funciona muito bem com Chrome e Firefox.</p>
-                    <a href="https://www.nvaccess.org/download/" target="_blank" class="btn btn-primary">Abrir</a>
-                </div>
+    <div class="container mb-5 font" style="margin-top: 100px;" id="cegueira">
+        <div class="card">
+            <div class="card-header text-center">
+                <h2>Cegueira</h2>
             </div>
-            <div class="card m-2 col-xs-12 col-sm-6 col-lg-3 border border-1 border-dark p-1 mx-auto" style="width: 300px;">
-                <img src="./imagem_sitetop/image_jaws.png" class="card-img-top border border-1 rounded" style="height: 290px; width: auto; object-fit: cover;" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">JAWS</h5>
-                    <p class="card-text">O leitor de tela mais tradicional e robusto para Windows, bastante usado em ambientes corporativos e educacionais. É pago, mas tem uma versão gratuita limitada (40 minutos por sessão).</p>
-                    <a href="https://www.freedomscientific.com/products/software/jaws/" target="_blank" class="btn btn-primary">Abrir</a>
-                </div>
+            <div class="card-body">
+                <figure>
+                    <blockquote class="blockquote">
+                        <p>A cegueira é uma das condições que mais afetam a autonomia e a qualidade de vida de milhões
+                            de pessoas ao redor do planeta. Segundo estimativas da Organização Mundial da Saúde (OMS),
+                            dezenas de milhões de pessoas vivem com cegueira total, e centenas de milhões enfrentam
+                            algum grau de deficiência visual moderada a grave. Compreender essa realidade — suas causas,
+                            seus desafios e os avanços tecnológicos que vêm transformando a vida de pessoas cegas — é
+                            essencial para construirmos uma sociedade mais inclusiva.</p>
+                        <div style="text-align: center;">
+                            <img class="mb-2 img-fluid" src="./imagem_sitetop/cao-guia.webp"
+                                style="justify-content: center; ; height: 500px; object-fit: contain; border: 2px solid #2c5f8a;"
+                                alt="">
+
+                        </div>
+
+                        <h3 class=" mt-5 m-4 " style="border-bottom: 3px solid #2c5f8a; color: #2c5f8a;">A cegueira no
+                            mundo</h3>
+
+                        <p>No cenário global, a cegueira está diretamente ligada a fatores como acesso à saúde,
+                            condições socioeconômicas e prevenção de doenças oculares. As principais causas incluem
+                            catarata não tratada, glaucoma, degeneração macular relacionada à idade, retinopatia
+                            diabética e erros refrativos não corrigidos. Um dado alarmante é que grande parte dos casos
+                            de cegueira no mundo poderia ser evitada ou tratada, caso houvesse acesso adequado a
+                            cuidados oftalmológicos, especialmente em países de baixa e média renda.
+
+                            Nos países desenvolvidos, o investimento em saúde pública, tecnologia assistiva e políticas
+                            de inclusão tem reduzido significativamente o impacto da deficiência visual na vida das
+                            pessoas. Já em regiões mais pobres da África, Ásia e América Latina, a falta de acesso a
+                            cirurgias simples, como a de catarata, ainda é uma das principais causas de cegueira
+                            evitável.</p>
+                    </blockquote>
+                </figure>
             </div>
-            <div class="card m-2 col-xs-12 col-sm-6 col-lg-3 border border-1 border-dark p-1 mx-auto" style="width: 300px;">
-                <img src="./imagem_sitetop/image_narrator.png" class="card-img-top border border-1 rounded" style="height: 290px; width: auto; object-fit: cover;" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Narrator (Microsoft)</h5>
-                    <p class="card-text">Leitor de tela nativo do Windows, já vem instalado no sistema (não precisa baixar nada separado). É bem usado por ser gratuito e integrado, funcionando com Edge e outros navegadores.</p>
-                    <a href="https://support.microsoft.com/pt-br/windows/completo-guia-do-narrador-e4397a0d-ef4f-b386-d8ae-c172f109bdb1" target="_blank" class="btn btn-primary">Abrir</a>
-                </div>
-            </div>
-            <div class="card m-2 col-xs-12 col-sm-6 col-lg-3 border border-1 border-dark p-1 mx-auto" style="width: 300px;">
-                <img src="./imagem_sitetop/image_chromevox.png" class="card-img-top border border-1 rounded" style="height: 290px; width: auto; object-fit: cover;" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">ChromeVox</h5>
-                    <p class="card-text">Extensão de leitor de tela feita pelo próprio Google para o navegador Chrome. É mais leve que NVDA/JAWS e pensada especificamente para uso dentro do navegador.</p>
-                    <a href="https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn" target="_blank" class="btn btn-primary">Abrir</a>
-                </div>
-            </div>
-        </div>    
+        </div>
     </div>
 
 
@@ -100,6 +96,299 @@
 
 
 
+
+
+
+
+
+
+    <h1 class="text-center mt-4 font">Extensoes Utilizadas</h1>
+    <div class="container">
+        <hr>
+    </div>
+    <h3 class="text-center font">Pessoas com cegueira utilizam de extensoes externas para fazer a leituras de sites</h3>
+
+
+    <div class="container mt-5 mb-5 font" id="extensao">
+        <div class="row">
+            <div class="card m-2 col-xs-12 col-sm-6 col-lg-3 border border-1 border-dark p-1 mx-auto"
+                style="width: 300px;">
+                <img src="./imagem_sitetop/image-nvda.png" class="card-img-top border border-1 rounded"
+                    style="height: 290px; width: auto; object-fit: cover;" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">NVDA</h5>
+                    <p class="card-text">Não é bem uma extensão de navegador, mas um leitor de tela gratuito e de código
+                        aberto para Windows. É um dos mais usados no mundo todo, funciona muito bem com Chrome e
+                        Firefox.</p>
+                    <a href="https://www.nvaccess.org/download/" target="_blank" class="btn btn-primary">Abrir</a>
+                </div>
+            </div>
+            <div class="card m-2 col-xs-12 col-sm-6 col-lg-3 border border-1 border-dark p-1 mx-auto"
+                style="width: 300px;">
+                <img src="./imagem_sitetop/image-jaws.png" class="card-img-top border border-1 rounded"
+                    style="height: 290px; width: auto; object-fit: cover;" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">JAWS</h5>
+                    <p class="card-text">O leitor de tela mais tradicional e robusto para Windows, bastante usado em
+                        ambientes corporativos e educacionais. É pago, mas tem uma versão gratuita limitada (40 minutos
+                        por sessão).</p>
+                    <a href="https://www.freedomscientific.com/products/software/jaws/" target="_blank"
+                        class="btn btn-primary">Abrir</a>
+                </div>
+            </div>
+            <div class="card m-2 col-xs-12 col-sm-6 col-lg-3 border border-1 border-dark p-1 mx-auto"
+                style="width: 300px;">
+                <img src="./imagem_sitetop/image-narrator.png" class="card-img-top border border-1 rounded"
+                    style="height: 290px; width: auto; object-fit: cover;" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Narrator (Microsoft)</h5>
+                    <p class="card-text">Leitor de tela nativo do Windows, já vem instalado no sistema (não precisa
+                        baixar nada separado). É bem usado por ser gratuito e integrado, funcionando com Edge e outros
+                        navegadores.</p>
+                    <a href="https://support.microsoft.com/pt-br/windows/completo-guia-do-narrador-e4397a0d-ef4f-b386-d8ae-c172f109bdb1"
+                        target="_blank" class="btn btn-primary">Abrir</a>
+                </div>
+            </div>
+            <div class="card m-2 col-xs-12 col-sm-6 col-lg-3 border border-1 border-dark p-1 mx-auto"
+                style="width: 300px;">
+                <img src="./imagem_sitetop/image-chromevox.png" class="card-img-top border border-1 rounded"
+                    style="height: 290px; width: auto; object-fit: cover;" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">ChromeVox</h5>
+                    <p class="card-text">Extensão de leitor de tela feita pelo próprio Google para o navegador Chrome. É
+                        mais leve que NVDA/JAWS e pensada especificamente para uso dentro do navegador.</p>
+                    <a href="https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn"
+                        target="_blank" class="btn btn-primary">Abrir</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container font" style="margin-bottom: 70px;" id="braille">
+        <h1 style="border-bottom: 3px solid #2c5f8a">Como Surgiu o Braille</h1>
+
+        <p>O Braille foi criado por <strong>Louis Braille</strong>, um francês que ficou cego ainda criança após um
+            acidente
+            na oficina do pai. Mesmo cego, ele conseguiu estudar em uma escola especializada em Paris, onde percebeu que
+            os
+            métodos de leitura para pessoas cegas da época eram lentos e limitados.</p>
+
+        <p>Inspirado em um sistema militar de pontos em relevo usado por soldados para escrever no escuro, Louis
+            simplificou
+            a ideia e criou, aos 15 anos, um sistema baseado em uma célula de 6 pontos, capaz de representar todas as
+            letras
+            do alfabeto, números e sinais de pontuação.</p>
+
+        <p>O sistema foi oficialmente adotado na França em 1854, dois anos após a morte de Louis Braille, e hoje é usado
+            em
+            praticamente todos os idiomas do mundo, incluindo o português.</p>
+
+        <h2 style=" color: #2c5f8a">O alfabeto Braille</h2>
+
+        <p>Abaixo está a representação de cada letra em Braille:</p>
+
+        <div class="table-responsive">
+            <table style="border: 1px solid #3f3f3f;">
+                <tr style="border: 1px solid #3f3f3f;">
+                    <th>Letra</th>
+                    <th>Braille</th>
+                    <th>Letra</th>
+                    <th>Braille</th>
+                    <th>Letra</th>
+                    <th>Braille</th>
+                    <th>Letra</th>
+                    <th>Braille</th>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <td class="braille-char">⠁</td>
+                    <td>H</td>
+                    <td class="braille-char">⠓</td>
+                    <td>O</td>
+                    <td class="braille-char">⠕</td>
+                    <td>V</td>
+                    <td class="braille-char">⠧</td>
+                </tr>
+                <tr>
+                    <td>B</td>
+                    <td class="braille-char">⠃</td>
+                    <td>I</td>
+                    <td class="braille-char">⠊</td>
+                    <td>P</td>
+                    <td class="braille-char">⠏</td>
+                    <td>W</td>
+                    <td class="braille-char">⠺</td>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td class="braille-char">⠉</td>
+                    <td>J</td>
+                    <td class="braille-char">⠚</td>
+                    <td>Q</td>
+                    <td class="braille-char">⠟</td>
+                    <td>X</td>
+                    <td class="braille-char">⠭</td>
+                </tr>
+                <tr>
+                    <td>D</td>
+                    <td class="braille-char">⠙</td>
+                    <td>K</td>
+                    <td class="braille-char">⠅</td>
+                    <td>R</td>
+                    <td class="braille-char">⠗</td>
+                    <td>Y</td>
+                    <td class="braille-char">⠽</td>
+                </tr>
+                <tr>
+                    <td>E</td>
+                    <td class="braille-char">⠑</td>
+                    <td>L</td>
+                    <td class="braille-char">⠇</td>
+                    <td>S</td>
+                    <td class="braille-char">⠎</td>
+                    <td>Z</td>
+                    <td class="braille-char">⠵</td>
+                </tr>
+                <tr>
+                    <td>F</td>
+                    <td class="braille-char">⠋</td>
+                    <td>M</td>
+                    <td class="braille-char">⠍</td>
+                    <td>T</td>
+                    <td class="braille-char">⠞</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>G</td>
+                    <td class="braille-char">⠛</td>
+                    <td>N</td>
+                    <td class="braille-char">⠝</td>
+                    <td>U</td>
+                    <td class="braille-char">⠥</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <div class="container mb-5 mt-5" style="border: 1px solid #2c5f8a;" id="lei">
+        <h1>Legislação sobre Cegueira</h1>
+
+        <p>No Brasil, a principal lei que protege pessoas cegas e com deficiência é a <strong>Lei Brasileira de Inclusão
+                (Lei nº 13.146/2015)</strong>, também chamada de Estatuto da Pessoa com Deficiência. Ela garante
+            direitos como acessibilidade em espaços públicos, educação inclusiva, prioridade em atendimentos e
+            adaptações no ambiente de trabalho.</p>
+
+        <p>No plano internacional, a <strong>Convenção da ONU sobre os Direitos das Pessoas com Deficiência</strong>,
+            ratificada pelo Brasil em 2008, foi a primeira convenção de direitos humanos incorporada à Constituição
+            brasileira com status de emenda constitucional.</p>
+
+        <p>Já no meio digital, as diretrizes internacionais chamadas <strong>WCAG (Web Content Accessibility
+                Guidelines)</strong> definem boas práticas para tornar sites acessíveis a pessoas cegas e com baixa
+            visão, servindo de base para leis de acessibilidade digital em vários países.</p>
+
+        <ul>
+            <li>Lei nº 13.146/2015 — Lei Brasileira de Inclusão</li>
+            <li>Convenção da ONU sobre os Direitos das Pessoas com Deficiência (2008)</li>
+            <li>WCAG — diretrizes internacionais de acessibilidade web</li>
+        </ul>
+    </div>
+
+
+
+    <div class="container py-4 py-md-5 font mb-5"
+        style="border-left: 3px double #2c5f8a; border-right: 3px double #2c5f8a; border-bottom: 3px double #2c5f8a;" id="ong">
+
+        <h1 class="fs-2 fs-md-1">Instituições de Apoio a Pessoas Cegas</h1>
+        <hr>
+        <p>No Brasil, diversas organizações oferecem suporte gratuito ou de baixo custo a pessoas cegas e com baixa
+            visão, incluindo reabilitação, educação especializada, produção de materiais em Braille e orientação às
+            famílias. Conheça algumas das principais:</p>
+
+        <div class="row g-3 mt-2">
+
+            <div class="col-12 col-md-6">
+                <div class="card-ong">
+                    <h3>Fundação Dorina Nowill para Cegos</h3>
+                    <div class="local">São Paulo, SP · fundada em 1946</div>
+                    <p>Uma das maiores referências do país na produção e distribuição gratuita de livros em Braille,
+                        áudio e formato digital acessível. Também oferece reabilitação, educação especial e apoio à
+                        empregabilidade.</p>
+                    <a href="https://fundacaodorina.org.br/" target="_blank" rel="noopener">fundacaodorina.org.br →</a>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <div class="card-ong">
+                    <h3>Instituto Benjamin Constant (IBC)</h3>
+                    <div class="local">Rio de Janeiro, RJ · fundado em 1854</div>
+                    <p>Órgão federal ligado ao Ministério da Educação, é o centro de referência nacional em deficiência
+                        visual. Mantém escola própria, gráfica em Braille e cursos de formação continuada.</p>
+                    <a href="https://www.gov.br/ibc/pt-br" target="_blank" rel="noopener">gov.br/ibc →</a>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <div class="card-ong">
+                    <h3>Laramara</h3>
+                    <div class="local">São Paulo, SP · fundada em 1991</div>
+                    <p>Associação especializada em baixa visão e apoio a crianças e jovens com deficiência visual ou
+                        múltipla. Oferece avaliação oftalmológica, intervenção precoce e desenvolvimento de tecnologia
+                        assistiva.</p>
+                    <a href="http://www.laramara.org.br/" target="_blank" rel="noopener">laramara.org.br →</a>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <div class="card-ong">
+                    <h3>Como ajudar</h3>
+                    <div class="local">Formas comuns de apoio</div>
+                    <p>A maioria dessas instituições depende de doações, voluntariado e leis de incentivo fiscal (como
+                        abatimento de Imposto de Renda) para manter seus serviços gratuitos. Vale visitar o site de cada
+                        uma para ver as formas atuais de contribuição.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="container py-5" style="max-width: 900px;">
+            <div class="row g-4">
+
+                <div class="col-12 col-md-6">
+                    <h4>Sobre o site</h4>
+                    <p>Conteúdo educativo sobre cegueira no Brasil e no mundo, história do Braille, legislação e
+                        acessibilidade digital.</p>
+                    <p>Este site busca seguir boas práticas de acessibilidade digital (WCAG).</p>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <h4>Navegação</h4>
+                    <ul>
+                        <li><a href="#cegueira">Cegueira no Brasil e no Mundo</a></li>
+                        <li><a href="#extensao">Extensões e leitores de tela</a></li>
+                        <li><a href="#braille">Como Surgiu o Braille & O alfabeto Braille</a></li>
+                        <li><a href="#lei">Legislação</a></li>
+                        <li><a href="#ong">Instituições de Apoio</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2026 — Todos os direitos reservados. OCTFLOW
+        </div>
+    </footer>
 
 
 

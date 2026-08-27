@@ -292,7 +292,7 @@ transition: all 0.3s ease;
     grid-template-columns: 295px 295px 295px 295px;
     grid-template-rows: 100px 750px 900px;
     gap: 8px;
-    border: 3px solid #fff;
+    border: 1px solid #fff;
     color: gainsboro;
     margin-top: 200px;
     border-radius: 30px;

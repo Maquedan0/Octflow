@@ -289,7 +289,7 @@ transition: all 0.3s ease;
 .saiba-mais{
     display: grid;
     grid-template-columns: 295px 295px 295px 295px;
-    grid-template-rows: 100px 750px 900px;
+    grid-template-rows: 100px 750px 1300px;
     gap: 8px;
     border: 1px solid #fff;
     color: gainsboro;
@@ -313,7 +313,7 @@ transition: all 0.3s ease;
 }
 
 .sb2{
-    grid-column: 1 / 4;
+    grid-column: 1 / 5;
     grid-row: 2 / 3;
     border: 2px solid rgb(0, 0, 0);
     background-color: rgb(87, 27, 151);
@@ -323,15 +323,6 @@ transition: all 0.3s ease;
     height: 100%;
     object-fit: cover;
 }
-
-.sb3{
-    grid-column: 4 / 5;
-    grid-row: 2 / 3;
-    padding-left: 5px;
-    background-color: rgb(20, 0, 27);
-    color: #fff;
-}
-
 
 .sb4{
     grid-column: 1 / 5;
@@ -649,3 +640,33 @@ transition: all 0.3s ease;
     text-align: center;
 
   }
+
+
+  .oc-busca-area { display: flex; align-items: center; gap: .5rem; }
+ 
+  .oc-busca-campo {
+    width: 0;
+    opacity: 0;
+    padding: 0;
+    border: 0;
+    border-bottom: 2px solid #5b21b6;
+    background: transparent;
+    color: #ffffff;
+    font-size: 1rem;
+    outline: none;
+    transition: width .3s, opacity .3s, padding .3s;
+  }
+  .oc-busca-campo.oc-busca-aberto { width: 220px; opacity: 1; padding: .4rem .25rem; }
+ 
+  .oc-busca-botao {
+    background: none;
+    border: 0;
+    padding: .25rem;
+    color: #ffffff;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+  }
+  .oc-busca-botao:hover { color: #a78bfa; }
+  .oc-busca-botao:focus-visible { outline: 2px solid #a78bfa; outline-offset: 3px; }
+  .oc-busca-botao svg { width: 26px; height: 26px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }

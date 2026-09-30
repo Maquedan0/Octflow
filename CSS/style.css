@@ -7,7 +7,6 @@
 
 }
 body{
-   
     background-color: #000000;
     margin: 0;
     padding: 0;
@@ -104,7 +103,7 @@ section {
     color: white;
     max-width: 600px;
     max-height: 400px;
-    margin-top: 60px;
+    
     margin-bottom: 100px;
 }
 .sobrenos h1{
@@ -581,3 +580,72 @@ transition: all 0.3s ease;
     color: blueviolet;
     cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+.zq-rodape {
+    width: 100%;
+    background: #140022;
+    color: #ffffff;
+    padding: 3.5rem 1.5rem 1.5rem;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    box-sizing: border-box;
+    margin-top: 200px;
+    
+  }
+  .zq-rodape *, .zq-rodape *::before, .zq-rodape *::after { box-sizing: border-box; }
+ 
+  .zq-rodape-grade {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2.5rem;
+  }
+ .zq-rodape-grade a{
+    color: #fff;
+ }
+
+  .zq-rodape-marca { font-size: 1.4rem; font-weight: 700; color: #ffffff; margin: 0 0 .75rem; }
+  .zq-rodape-texto { margin: 0; max-width: 32ch; }
+  .zq-rodape-titulo { margin: 0 0 .9rem; font-size: 1rem; font-weight: 600; color: #ffffff; }
+  .zq-rodape-lista { list-style: none; margin: 0; padding: 0; display: grid; gap: .5rem; }
+  .zq-rodape-link { color: #c9d1e3; text-decoration: none; }
+  .zq-rodape-link:hover { color: #f2b84b; text-decoration: none; }
+  .zq-rodape-link:focus-visible { outline: 2px solid #f2b84b; outline-offset: 3px; border-radius: 2px; }
+ 
+  .zq-rodape-insta {
+    display: grid; place-items: center;
+    width: 38px; height: 38px;
+    margin-top: 1rem;
+    color: #c9d1e3;
+    border: 1px solid rgba(255, 255, 255, .14);
+    border-radius: 50%;
+  }
+  .zq-rodape-insta:hover { color: #f2b84b; border-color: #f2b84b; }
+  .zq-rodape-insta:focus-visible { outline: 2px solid #f2b84b; outline-offset: 3px; }
+  .zq-rodape-insta svg { width: 18px; height: 18px; fill: currentColor; }
+ 
+  .zq-rodape-base {
+    max-width: 1100px;
+    margin: 2.5rem auto 0;
+    padding-top: 1.25rem;
+    border-top: 1px solid rgba(255, 255, 255, .14);
+    display: flex; 
+    flex-wrap: wrap; 
+    
+    
+    font-size: .85rem;
+    text-align: center;
+
+  }

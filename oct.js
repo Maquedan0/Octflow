@@ -107,3 +107,5 @@ imgS.addEventListener('dragstart', (e) => {
 window.addEventListener('mouseup', () => {
     imgS.src = imgNormalS;
 });
+
+document.getElementById("zq-rodape-ano").textContent = new Date().getFullYear();

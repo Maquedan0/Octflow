@@ -670,3 +670,20 @@ transition: all 0.3s ease;
   .oc-busca-botao:hover { color: #a78bfa; }
   .oc-busca-botao:focus-visible { outline: 2px solid #a78bfa; outline-offset: 3px; }
   .oc-busca-botao svg { width: 26px; height: 26px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
+
+  html, body {
+  overflow-x: hidden;
+}
+
+
+@media (max-width: 768px) {
+  [class*="accesspath"],
+  [id*="accesspath"],
+  [class*="ap-widget"] {
+    max-width: 90vw !important;
+    max-height: 80vh !important;
+    right: 10px !important;
+    bottom: 10px !important;
+    left: auto !important;
+  }
+}
